@@ -14,6 +14,8 @@ type UpdatePlayerGameType struct {
 	// PlayerUniqueID is the entity unique ID of the player that should have its game mode updated. If this
 	// packet is sent to other clients with the player unique ID of another player, nothing happens.
 	PlayerUniqueID int64
+	// Tick ...
+	Tick int64
 }
 
 // ID ...
@@ -24,4 +26,5 @@ func (*UpdatePlayerGameType) ID() uint32 {
 func (pk *UpdatePlayerGameType) Marshal(io protocol.IO) {
 	io.Varint32(&pk.GameType)
 	io.Varint64(&pk.PlayerUniqueID)
+	io.Varint64(&pk.Tick)
 }

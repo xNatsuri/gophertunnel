@@ -1238,6 +1238,7 @@ func (conn *Conn) handleStartGame(pk *packet.StartGame) error {
 		Items:                        pk.Items,
 		PlayerMovementSettings:       pk.PlayerMovementSettings,
 		WorldGameMode:                pk.WorldGameMode,
+		Hardcore:                     pk.Hardcore,
 		ServerAuthoritativeInventory: pk.ServerAuthoritativeInventory,
 		PlayerPermissions:            pk.PlayerPermissions,
 		ChatRestrictionLevel:         pk.ChatRestrictionLevel,

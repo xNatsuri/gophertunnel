@@ -29,6 +29,7 @@ const (
 	MapDecorationTypeVillageTaiga
 	MapDecorationTypeJungleTemple
 	MapDecorationTypeWitchHut
+	MapDecorationTypeTrialChambers
 )
 
 const (

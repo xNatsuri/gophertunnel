@@ -245,14 +245,15 @@ const (
 	EntityDataFlagSonicBoom
 	EntityDataFlagHasDashTimeout
 	EntityDataFlagPushTowardsClosestSpace
-	EntityDataFlagScenting
-	EntityDataFlagRising
-	EntityDataFlagFeelingHappy
+	_
+	_
+	_
 	EntityDataFlagSearching
 	EntityDataFlagCrawling
 	EntityDataFlagTimerFlag1
 	EntityDataFlagTimerFlag2
 	EntityDataFlagTimerFlag3
+	EntityDataFlagBodyRotationBlocked
 )
 
 const (

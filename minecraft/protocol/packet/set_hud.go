@@ -16,6 +16,8 @@ const (
 	HudElementHunger
 	HudElementAirBubbles
 	HudElementHorseHealth
+	HudElementStatusEffect
+	HudElementItemText
 )
 
 const (

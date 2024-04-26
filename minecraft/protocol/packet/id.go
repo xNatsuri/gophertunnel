@@ -163,7 +163,7 @@ const (
 	IDPlayerFog
 	IDCorrectPlayerMovePrediction
 	IDItemComponent
-	IDFilterText
+	_
 	IDClientBoundDebugRenderer
 	IDSyncActorProperty
 	IDAddVolumeEntity
